@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz</title>
+<style>
+body {
+background-color: #a8e6cf;
+font-family: sans-serif;
+}
+.container {
+width: 80%;
+margin: 50px auto;
+background-color: #f7f7f7;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+text-align: center;
+color: #6ab04c;
+}
+.question {
+margin-bottom: 20px;
+}
+.question p {
+font-weight: bold;
+color: #333;
+}
+.options label {
+display: block;
+margin-bottom: 10px;
+cursor: pointer;
+color: #555;
+}
+button {
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+color: white;
+cursor: pointer;
+}
+.submit {
+background-color: #6ab04c;
+}
+.reset {
+background-color: #e64141;
+}
+.buttons {
+text-align: center;
+margin-top: 20px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Quiz</h1>
+<div class="question">
+<p>What does "ROI" stand for in finance?</p>
+<div class="options">
+<label><input type="radio" name="q" value="a">Return on Investment</label>
+<label><input type="radio" name="q" value="b">Rate of Interest</label>
+<label><input type="radio" name="q" value="c">Return on Income</label>
+<label><input type="radio" name="q" value="d">Risk of Investment</label>
+</div>
+</div>
+<div class="question">
+<p>Which of the following is an example of a fixed-income security?</p>
+<div class="options">
+<label><input type="radio" name="q" value="a">Common stock</label>
+<label><input type="radio" name="q" value="b">Corporate bonds</label>
+<label><input type="radio" name="q" value="c">Mutual funds</label>
+<label><input type="radio" name="q" value="d">Real estate</label>
+</div>
+</div>
+<div class="question">
+<p>In financial accounting, what does the term "liquidity" refer to?</p>
+<div class="options">
+<label><input type="radio" name="q" value="a">The ability of a company to meet its short-term obligations</label>
+<label><input type="radio" name="q" value="b">The total value of assets</label>
+<label><input type="radio" name="q" value="c">The profitability of the company</label>
+<label><input type="radio" name="q" value="d">The revenue generated from sales</label>
+</div>
+</div>
+<div class="question">
+<p>Which of the following is a key purpose of a budget?</p>
+<div class="options">
+<label><input type="radio" name="q" value="a">To assess the company's profitability</label>
+<label><input type="radio" name="q" value="b">To project future financial performance and control spending</label>
+<label><input type="radio" name="q" value="c">To calculate tax liabilities</label>
+<label><input type="radio" name="q" value="d">To evaluate market conditions</label>
+</div>
+</div>
+<div class="question">
+<p>What is the "time value of money" concept?</p>
+<div class="options">
+<label><input type="radio" name="q" value="a">Money loses value over time due to inflation</label>
+<label><input type="radio" name="q" value="b">Money invested today will be worth more in the future</label>
+<label><input type="radio" name="q" value="c">Money today is worth less than money in the future</label>
+<label><input type="radio" name="q" value="d">Money should always be saved rather than invested</label>
+</div>
+</div>
+<div class="buttons">
+<button class="reset">reset</button>
+<button class="submit">submit</button>
+</div>
+</body>
+</html>

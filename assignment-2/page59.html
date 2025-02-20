@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz</title>
+<style>
+body {
+background-color: #a8e6cf;
+font-family: sans-serif;
+}
+.container {
+width: 80%;
+margin: 50px auto;
+background-color: #f7f7f7;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+text-align: center;
+color: #6ab04c;
+}
+.question {
+margin-bottom: 20px;
+}
+.question p {
+font-weight: bold;
+color: #333;
+}
+.options label {
+display: block;
+margin-bottom: 10px;
+cursor: pointer;
+color: #555;
+}
+button {
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+color: white;
+cursor: pointer;
+}
+.submit {
+background-color: #6ab04c;
+}
+.reset {
+background-color: #e64141;
+}
+.buttons {
+text-align: center;
+margin-top: 20px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Quiz</h1>
+<div class="question">
+<p>Which of the following is the primary cause of a material failure due to fatigue?</p>
+<div class="options">
+<label><input type="radio" name="q" value="a">Excessive temperature</label>
+<label><input type="radio" name="q" value="b">Repeated cyclic loading</label>
+<label><input type="radio" name="q" value="c">High-speed motion</label>
+<label><input type="radio" name="q" value="d">Sudden impact force</label>
+</div>
+</div>
+<div class="question">
+<p>What is the key difference between a transformer and a generator in electrical engineering? </p>
+<div class="options">
+<label><input type="radio" name="q" value="a">A transformer converts mechanical energy to electrical energy</label>
+<label><input type="radio" name="q" value="b">A transformer changes voltage levels, while a generator produces electrical power</label>
+<label><input type="radio" name="q" value="c">A transformer works only with DC power</label>
+<label><input type="radio" name="q" value="d">A generator changes the frequency of electrical signals, while a transformer does not.</label>
+</div>
+</div>
+<div class="question">
+<p>In thermodynamics, what is the term for the amount of heat required to raise the temperature of a substance by one degree Celsius? </p>
+<div class="options">
+<label><input type="radio" name="q" value="a">Specific heat capacity</label>
+<label><input type="radio" name="q" value="b">Latent heat</label>
+<label><input type="radio" name="q" value="c">Enthalpy</label>
+<label><input type="radio" name="q" value="d">Thermal conductivity</label>
+</div>
+</div>
+<div class="question">
+<p>Which of the following algorithms is commonly used in computer science for searching a large set of data efficiently? </p>
+<div class="options">
+<label><input type="radio" name="q" value="a">Bubble sort</label>
+<label><input type="radio" name="q" value="b">Binary search</label>
+<label><input type="radio" name="q" value="c">Quick sort</label>
+<label><input type="radio" name="q" value="d">Merge sort</label>
+</div>
+</div>
+<div class="question">
+<p>In structural engineering, which of the following is a common method for analyzing the internal forces within a frame structure? </p>
+<div class="options">
+<label><input type="radio" name="q" value="a">Moment distribution method</label>
+<label><input type="radio" name="q" value="b">Bending moment method</label>
+<label><input type="radio" name="q" value="c">Fourier transform method</label>
+<label><input type="radio" name="q" value="d">Least squares method</label>
+</div>
+</div>
+<div class="buttons">
+<button class="reset">reset</button>
+<button class="submit">submit</button>
+</div>
+</body>
+</html> 

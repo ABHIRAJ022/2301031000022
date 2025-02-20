@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz</title>
+<style>
+body {
+background-color: #a8e6cf;
+font-family: sans-serif;
+}
+.container {
+width: 80%;
+margin: 50px auto;
+background-color: #f7f7f7;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+text-align: center;
+color: #6ab04c;
+}
+.question {
+margin-bottom: 20px;
+}
+.question p {
+font-weight: bold;
+color: #333;
+}
+.options label {
+display: block;
+margin-bottom: 10px;
+cursor: pointer;
+color: #555;
+}
+button {
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+color: white;
+cursor: pointer;
+}
+.submit {
+background-color: #6ab04c;
+}
+.reset {
+background-color: #e64141;
+}
+.buttons {
+text-align: center;
+margin-top: 20px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Quiz</h1>
+<div class="question">
+<p>Which of the following is considered a primary nutrient required by the human body?</p>
+<div class="options">
+<label><input type="radio" name="q" value="a">Fiber</label>
+<label><input type="radio" name="q" value="b">Water</label>
+<label><input type="radio" name="q" value="c">Sugar</label>
+<label><input type="radio" name="q" value="d">Salt</label>
+</div>
+</div>
+<div class="question">
+<p>What is the most effective method to prevent the spread of infectious diseases?</p>
+<div class="options">
+<label><input type="radio" name="q" value="a">Vaccination</label>
+<label><input type="radio" name="q" value="b">Antibiotics</label>
+<label><input type="radio" name="q" value="c">Eating a balanced diet</label>
+<label><input type="radio" name="q" value="d">Regular exercise</label>
+</div>
+</div>
+<div class="question">
+<p>What is the main function of red blood cells in the body?</p>
+<div class="options">
+<label><input type="radio" name="q" value="a">To fight infections</label>
+<label><input type="radio" name="q" value="b">To carry oxygen to tissues</label>
+<label><input type="radio" name="q" value="c">To assist in digestion</label>
+<label><input type="radio" name="q" value="d">To regulate body temperature</label>
+</div>
+</div>
+<div class="question">
+<p>Which of the following is a common symptom of Type 2 diabetes?</p>
+<div class="options">
+<label><input type="radio" name="q" value="a">Increased hunger</label>
+<label><input type="radio" name="q" value="b">Sudden weight loss</label>
+<label><input type="radio" name="q" value="c">Excessive thirst and frequent urination</label>
+<label><input type="radio" name="q" value="d">Extreme fatigue</label>
+</div>
+</div>
+<div class="question">
+<p>Which of the following is the leading cause of preventable death worldwide?</p>
+<div class="options">
+<label><input type="radio" name="q" value="a">Diabetes</label>
+<label><input type="radio" name="q" value="b">Obesity</label>
+<label><input type="radio" name="q" value="c">Smoking</label>
+<label><input type="radio" name="q" value="d">Alcohol consumption</label>
+</div>
+</div>
+<div class="buttons">
+<button class="reset">reset</button>
+<button class="submit">submit</button>
+</div>
+</body>
+</html>
