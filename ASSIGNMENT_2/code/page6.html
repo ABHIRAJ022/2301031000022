@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domain Selection</title>
+    <style>
+        body {
+            background-color: #87CEEB; /* Sky Blue */
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 150px);
+            grid-template-rows: repeat(3, 80px);
+            gap: 20px;
+            position: relative;
+        }
+        .domain {
+            background-color: #FFD700; /* Gold */
+            color: #000080; /* Navy */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+      .vertical-text {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%) rotate(-90deg);
+          color: #800000; /* Maroon */
+          font-weight: bold;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="domain"><a href="../code/page7.html">TECHNICAL</a></div>
+        <div class="domain"><a href="../code/page8.html">BUSINESS</a></div>
+        <div class="domain"><a href="../code/page9.html">MARKETING</a></div>
+        <div class="domain"><a href="../code/page10.html">HOSPITALITY</a></div>
+        <div class="domain"><a href="../code/page11.html">HEALTH</a></div>
+        <div class="domain"><a href="../code/page12.html">FINANCE</a></div>
+        <div class="vertical-text">SELECT DOMAIN</div>
+    </div>
+</body>
+</html>

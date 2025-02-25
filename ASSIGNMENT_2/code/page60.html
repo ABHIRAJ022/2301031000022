@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz Result</title>
+<style>
+body {
+    font-family: sans-serif;
+    background-color: #1E524A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: #2A796F;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.result-title {
+    background-color: #98E4C8;
+    color: #1E524A;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.result-text {
+    margin-bottom: 10px;
+}
+.trophy {
+    color: #FFD700;
+    font-size: 1.2em;
+    margin-right: 5px;
+}
+.passed {
+    color: #A0F2B2;
+}
+.failed {
+    color: #FF8A8A;
+}
+.message-box {
+    background-color: #D4E9E2;
+    color: #1E524A;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.buttons {
+    margin-top: 20px;
+}
+.button {
+    background-color: #6BCB9D;
+    color: #1E524A;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.button:hover {
+    background-color: #52A37E;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <h2 class="result-title">QUIZ RESULT</h2>
+    <div class="result-text">
+        <span class="trophy">🏆</span>Score 80% or Higher: <span class="passed">Passed</span>
+    </div>
+    <div class="result-text">
+         <span class="trophy">  </span> Score Below 80%: <span class="failed">Failed</span>
+    </div>
+    <div>
+        Display User Score: []
+    </div>
+     <div class="message-box">
+        Congratulations [User Name]!
+        You've successfully completed the quiz with an impressive score!
+        Keep up the great work and continue exploring exciting career paths.
+    </div>
+    <div class="buttons">
+        <a href="../code/page54.html">
+            <button class="button">Continue</button>
+        </a>
+    </div>
+    <div class="message-box">
+        You didn't pass this quiz.
+        Consider exploring a different interest area to find a better match for your skill and try again!
+    </div>
+    <div class="buttons">
+        <a href="../code/page.html">
+            <button class="button">Back</a></button>
+    </div>
+</div>
+</body>
+</html>
